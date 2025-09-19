@@ -4,11 +4,6 @@ PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning (IEEE TC
 <p align="center">The code is scheduled to be refactored and uploaded by October 31, 2025.</p>
 
 
-
-출처
-
-ChatGPT에게 묻기
-
 ## Citation
 
 If you use our codes, please cite our paper ([IEEE Xplore](https://doi.org/10.1109/TCDS.2025.3606221)).
