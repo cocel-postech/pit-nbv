@@ -2,7 +2,7 @@
 <p align="center">PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning (IEEE TCDS 2025)</p>
 
 ## Notice
-<p align="center">The code is scheduled to be refactored and uploaded by October 31, 2025.</p>
+<p align="center">The code is scheduled to be refactored and uploaded by November 30, 2025.</p>
 
 
 ## Citation
