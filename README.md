@@ -7,7 +7,7 @@
   <em>Overview of PIT-NBV pipeline.</em>
 </p>
 
-## Environment
+## Tested Environment
 - Ubuntu 20.04
 - Python 3.12
 - CUDA 11.8, cuDNN 8.9.2
@@ -15,7 +15,7 @@
 - Open3D 0.18.0
 
 ## Quick Evaluation
-If you only need evaluation, you can run it right away with our pretrained weights!
+If you only need evaluation, you can run it right away **with our pretrained weights**!
 ```bash
 python test.py
 ```
@@ -27,7 +27,7 @@ python test.py
     python 1_split_dataset.py
     ```
 3. OBJ → PCD(Sequential cloud), CSV(NBV)
-    First, build our modified poisson-guided autoscanning code. (The code will be uploaded soon.)
+    - First, build our modified poisson-guided autoscanning code. (The code will be uploaded soon.)
     ```bash
     python 2_python poisson_gen_nbv_data.py
     ```
@@ -38,11 +38,11 @@ python test.py
 
 ## Training and Evaluation
 * Dataloader : `dataloader_poisson.py`
-* Train
+* **Train**
     ```bash
     python train.py
     ```
-* Test
+* **Test**
     ```bash
     python test.py
     ```
