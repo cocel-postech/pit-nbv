@@ -2,32 +2,45 @@
 <p align="center">PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning (IEEE TCDS 2025)</p>
 
 ## Environment
-- Python 3.12
-- CUDA 11.8, cuDNN 8.9.2
-- PyTorch 2.1 (conda-forge, cuda118 build)
-- Open3D 0.18.0
+    Python 3.12
+    CUDA 11.8, cuDNN 8.9.2
+    PyTorch 2.1
+    Open3D 0.18.0
 
 ## Quick Test
+```bash
     python test_poisson.py
+```
 
 ## Dataset Generation
-1. Download [ShapeNetCore.v1][https://www.shapenet.org/]
+1. Download [ShapeNetCore.v1](https://www.shapenet.org/)
 2. Split the dataset into train, valid, test
-    python 1_split_dataset.py
+```bash
+python 1_split_dataset.py
+```
 3. OBJ → PCD(Sequential cloud), CSV(NBV)
 * First, build our modified poisson-guided autoscanning code. The code will be uploaded soon.
-    python 2_python poisson_gen_nbv_data.py
+```bash
+python 2_python poisson_gen_nbv_data.py
+```
 4. PCD(Sequential cloud), CSV(NBV) → HDF5(h5py)
-    python 3_python poisson_dataset_h5py.py
+```bash
+python 3_python poisson_dataset_h5py.py
+```
 
 ## Training and Evaluation
 * Dataloader
-    dataloader_poisson.py
+```bash
+dataloader_poisson.py
+```
 * Train
-    python train_poisson.py
+```bash
+python train_poisson.py
+```
 * Test
-    python test_poisson.py
-
+```bash
+python test_poisson.py
+```
 
 ## Citation
 
@@ -45,10 +58,10 @@ If you use our codes, please cite our paper ([IEEE Xplore](https://doi.org/10.11
 
 ## Acknowledgements
 We referenced the following codebases and are sincerely grateful to their authors.
-* [PCT: Point Cloud Transformer][https://github.com/MenghaoGuo/PCT]
-* [PC-NBV: A Point Cloud Based Deep Network for Efficient Next Best View Planning][https://github.com/Surean233/PC-NBV]
-* [Pytorch_Pointnet_Pointnet2][https://github.com/yanx27/Pointnet_Pointnet2_pytorch]
+* [PCT: Point Cloud Transformer](https://github.com/MenghaoGuo/PCT)
+* [PC-NBV: A Point Cloud Based Deep Network for Efficient Next Best View Planning](https://github.com/Surean233/PC-NBV)
+* [Pytorch_Pointnet_Pointnet2](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
 
 ## Contact information
 If you have any questions, please do not hesitate to contact us
-* [Doyu Lim][https://github.com/owl-d] (e-mail) doyulim@postech.ac.kr
+* [Doyu Lim](https://github.com/owl-d) (e-mail) doyulim@postech.ac.kr
