@@ -1,5 +1,5 @@
 <h1 align="center">PIT-NBV</h1>
-<p align="center">PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning (IEEE TCDS 2025)</p>
+<p align="center">PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning in 3D Object Reconstruction with Narrow Field of View (IEEE TCDS 2025)</p>
 
 <p align="center">
   <img src="overview.png" alt="PIT-NBV overview figure" width="720">
@@ -8,14 +8,16 @@
 </p>
 
 ## Environment
+- Ubuntu 20.04
 - Python 3.12
 - CUDA 11.8, cuDNN 8.9.2
 - PyTorch 2.1
 - Open3D 0.18.0
 
-## Quick Test
+## Quick Evaluation
+If you only need evaluation, you can run it right away with our pretrained weights!
 ```bash
-python test_poisson.py
+python test.py
 ```
 
 ## Dataset Generation
@@ -25,7 +27,7 @@ python test_poisson.py
     python 1_split_dataset.py
     ```
 3. OBJ → PCD(Sequential cloud), CSV(NBV)
-    - First, build our modified poisson-guided autoscanning code. (The code will be uploaded soon.)
+    First, build our modified poisson-guided autoscanning code. (The code will be uploaded soon.)
     ```bash
     python 2_python poisson_gen_nbv_data.py
     ```
@@ -38,11 +40,11 @@ python test_poisson.py
 * Dataloader : `dataloader_poisson.py`
 * Train
     ```bash
-    python train_poisson.py
+    python train.py
     ```
 * Test
     ```bash
-    python test_poisson.py
+    python test.py
     ```
 
 ## Citation
@@ -67,4 +69,4 @@ We referenced the following codebases and are sincerely grateful to their author
 
 ## Contact information
 If you have any questions, please do not hesitate to contact us
-- [Doyu Lim](https://github.com/owl-d) (e-mail) doyulim@postech.ac.kr
+- [Doyu Lim](https://github.com/owl-d) - doyulim@postech.ac.kr
