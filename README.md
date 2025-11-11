@@ -29,11 +29,11 @@ python test.py
 3. OBJ → PCD(Sequential cloud), CSV(NBV)
     - First, build our modified poisson-guided autoscanning code. (The code will be uploaded soon.)
     ```bash
-    python 2_python poisson_gen_nbv_data.py
+    python 2_poisson_gen_nbv_data.py
     ```
 4. PCD(Sequential cloud), CSV(NBV) → HDF5(h5py)
     ```bash
-    python 3_python poisson_dataset_h5py.py
+    python 3_poisson_dataset_h5py.py
     ```
 
 ## Training and Evaluation
