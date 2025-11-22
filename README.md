@@ -24,6 +24,7 @@ python test.py
 1. Download [ShapeNetCore.v1](https://www.shapenet.org/)
 2. Split the dataset into train, valid, test
     ```bash
+    cd supervision_dataset
     python 1_split_dataset.py
     ```
 3. OBJ → PCD(Sequential cloud), CSV(NBV)
