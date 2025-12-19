@@ -28,7 +28,7 @@ python test.py
     python 1_split_dataset.py
     ```
 3. OBJ → PCD(Sequential cloud), CSV(NBV)
-    - First, build our modified poisson-guided autoscanning code. (The code will be uploaded soon.)
+    - First, build our modified ([poisson-guided autoscanning code](https://github.com/owl-d/poisson-guided-view-planning)).
     ```bash
     python 2_poisson_gen_nbv_data.py
     ```
