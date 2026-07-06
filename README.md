@@ -53,13 +53,16 @@ python test.py
 If you use our codes, please cite our paper ([IEEE Xplore](https://doi.org/10.1109/TCDS.2025.3606221)).
 
 ```bibtex
-@article{lim2025pit,
-  title={PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning in 3D Object Reconstruction with Narrow Field of View},
+@ARTICLE{11150726,
   author={Lim, Doyu and Park, Chaewon and Kim, Joonhee and Hong, Junwoo and Han, Soohee},
-  journal={IEEE Transactions on Cognitive and Developmental Systems},
-  year={2025},
-  publisher={IEEE}
-}
+  journal={IEEE Transactions on Cognitive and Developmental Systems}, 
+  title={PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning in 3-D Object Reconstruction With Narrow Field of View}, 
+  year={2026},
+  volume={18},
+  number={2},
+  pages={462-475},
+  keywords={Three-dimensional displays;Surface reconstruction;Sensors;Point cloud compression;Transformers;Planning;Image reconstruction;Geometry;6-DOF;Surface treatment;3-D object reconstruction;next-best-view (NBV);point cloud;six-degree of freedom (6-DOF) viewpoint;transformer},
+  doi={10.1109/TCDS.2025.3606221}}
 ```
 
 ## Acknowledgements
