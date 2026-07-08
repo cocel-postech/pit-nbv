@@ -1,5 +1,5 @@
 <h1 align="center">PIT-NBV</h1>
-<p align="center">PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning in 3D Object Reconstruction with Narrow Field of View (IEEE TCDS 2025)</p>
+<p align="center">PIT-NBV: Poisson-Informed Transformer for 6-DOF Next Best View Planning in 3D Object Reconstruction with Narrow Field of View (IEEE TCDS 2026)</p>
 
 <p align="center">
   <img src="overview.png" alt="PIT-NBV overview figure" width="720">
